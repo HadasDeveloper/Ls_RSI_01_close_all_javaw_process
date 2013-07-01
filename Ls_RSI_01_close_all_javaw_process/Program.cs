@@ -5,7 +5,7 @@ namespace Ls_RSI_01_close_all_javaw_process
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Process[] processes = Process.GetProcessesByName("javaw");
             foreach (Process process in processes)
